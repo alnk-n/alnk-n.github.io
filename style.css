@@ -1,0 +1,113 @@
+body {
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
+}
+
+#title {
+    font-weight: bolder;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Courier New', monospace;
+    line-height: 30px;
+    inline-size: max-content;
+    color: lime;
+}
+
+.basicProperties {
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', monospace;
+}
+
+.basicParagraphProperties {
+    box-shadow: 3px 3px rgb(34, 34, 34);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(17, 17, 17);
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    inline-size: 500px;
+    overflow-wrap: break-word;
+    line-height: 35px;
+}
+
+ol {
+    list-style-position: inside;
+    padding-top: 0px;
+    margin-top: 0;
+}
+
+.centerText {
+    text-align: left;
+    display: block;
+    margin-left: 25px;
+}
+
+.sectionHeading {
+    color: lime;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', monospace;
+    line-height: 30px;
+    inline-size: max-content;
+    box-shadow: 3px 3px rgb(34, 34, 34);
+    border-radius: 10px;
+    background-color: rgb(17, 17, 17);
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    inline-size: 200px;
+    overflow-wrap: break-word;
+}
+
+img {
+    border-radius: 10px;
+    border: 3px lime solid;
+    display: block;
+    margin: auto;
+    margin-bottom: 13px;
+    filter: grayscale(30%);
+    max-width: 100%;
+    height: auto;
+}
+
+  #content-container {
+    background-color: rgb(149, 19, 201);
+    box-shadow: 5px 5px lime;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+    border-radius: 30px;
+    overflow: hidden;
+  }
+
+  #likeDislike {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 800px;
+  }
+
+  #likeDislike ul li {
+    font-size: 0.9em;
+    justify-content: center;
+  }
+
+  a {
+    color: lime;
+    background-color: darkgreen;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: darkgreen;
+    background-color: lime;
+  }
+
+  a:visited {
+    color: white;
+    background-color: black;
+  }
